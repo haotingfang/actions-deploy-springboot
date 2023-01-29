@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ActionsController {
 
-    @GetMapping("actions")
+    @GetMapping("/actions")
     public String actions() {
         return "使用 GitHub Actions 部署至服务器";
     }
